@@ -29,45 +29,64 @@ const SignUp = ({ closeOverlay }) => {
   };
 
  
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const formErrors = validate();
-  
-    if (Object.keys(formErrors).length === 0) {
-      setErrors({});
-      setLoading(true);
-  
-      try {
-        const response = await axios.post("http://localhost:3000/signup", {
-          email,
-          password
-        });
-  
-        if (response.status === 200) {
-          toast.success("Signed up successfully!");
-          setSuccess("Signed up successfully!");
-          login();       // set global auth
-          closeOverlay(); // close modal
-          setEmail("");
-          setPassword("");
-        } else {
-          toast.error(response.data.message || "Signup failed.");
-        }
-  
-      } catch (error) {
-        console.error("Signup error:", error);
-        toast.error("An error occurred during signup.");
-      } finally {
-        setLoading(false);
-      }
-  
-    } else {
-      setErrors(formErrors);
-      toast.error("Please fix the errors above.");
-      setSuccess("");
-    }
-  };
-  
+// const handleSubmit = async (e) => {
+//   e.preventDefault();
+//   const formErrors = validate();
+
+//   if (Object.keys(formErrors).length === 0) {
+//     setErrors({});
+//     setLoading(true);
+
+//     try {
+//       const response = await axios.post("http://localhost:3000/signup", {
+//         email,
+//         password
+//       });
+
+//       if (response.status === 200) {
+//         toast.success("Signed up successfully!");
+//         setSuccess("Signed up successfully!");
+//         login();       // set global auth
+//         closeOverlay(); // close modal
+//         setEmail("");
+//         setPassword("");
+//       } else {
+//         toast.error(response.data.message || "Signup failed.");
+//       }
+
+//     } catch (error) {
+//       console.error("Signup error:", error);
+//       toast.error("An error occurred during signup.");
+//     } finally {
+//       setLoading(false);
+//     }
+
+//   } else {
+//     setErrors(formErrors);
+//     toast.error("Please fix the errors above.");
+//     setSuccess("");
+//   }
+// };
+const handleSubmit = (e) => {
+  e.preventDefault();
+  const formErrors = validate();
+  if (Object.keys(formErrors).length === 0) {
+    setErrors({});
+    setSuccess("Signed up successfully!");
+    toast.success("Signed up successfully!");
+    setLoading(true);
+
+    setTimeout(() => {
+      setLoading(false);
+      login();
+      closeOverlay();
+    }, 1500);
+  } else {
+    setErrors(formErrors);
+    toast.error("Please fix the errors above.");
+    setSuccess("");
+  }
+};
 
  
     const [loading, setLoading] = useState(false);
