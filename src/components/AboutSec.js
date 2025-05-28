@@ -1,8 +1,8 @@
 import React from 'react';
 import  '../App.css';
 import {Link } from 'react-router-dom';
-import blooood from '../images/blooood.png';
-import aboutimage2 from '../images/aboutimage2.png';
+// import blooood from '../images/blooood.png';
+// import aboutimage2 from '../images/aboutimage2.png';
 const AboutSec = () => {
     return (
         <section className="wholeaboutsec" data-aos="zoom-in">

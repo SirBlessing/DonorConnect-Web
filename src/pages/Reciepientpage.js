@@ -19,7 +19,7 @@ const Reciepientpage = () => {
       ];
       
       
-        const [donors, setDonors] = useState(donorsData);
+        // const [donors, setDonors] = useState(donorsData);
       
         const handleRequest = (donor) => {
           alert(`Request sent to ${donor.name}`);

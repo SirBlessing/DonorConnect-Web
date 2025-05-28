@@ -1,12 +1,12 @@
 import React from 'react';
 import '../App.css';
-import redcross from '../images/redcross.png';
-import savethechildren from '../images/savethechildren.png';
-import NBTS from '../images/NBTS.png';
-import WHO from '../images/WHO.png';
-import UNICEF from '../images/UNICEF.png';
-import gbf from '../images/gbf.png';
-import nbsa from '../images/nbsa.png';
+// import redcross from '../images/redcross.png';
+// import savethechildren from '../images/savethechildren.png';
+// import NBTS from '../images/NBTS.png';
+// import WHO from '../images/WHO.png';
+// import UNICEF from '../images/UNICEF.png';
+// import gbf from '../images/gbf.png';
+// import nbsa from '../images/nbsa.png';
 import ImpactStats from '../components/ImpactStats';
 const Achiveandpartnersec = () => {
     // const partners = [

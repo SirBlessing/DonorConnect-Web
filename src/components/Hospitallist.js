@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css';
-import { FaCalendarCheck, FaMapMarkerAlt, FaFlask } from "react-icons/fa";
+// import { FaCalendarCheck, FaMapMarkerAlt, FaFlask } from "react-icons/fa";
 const hospitals = [
   {
     name: "Gifted Hand Hospitals",

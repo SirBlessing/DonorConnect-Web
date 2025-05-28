@@ -1,10 +1,10 @@
 import React from 'react';
 import '../App.css';
-import Navbar from '../components/Navbar';
-import {useState,useEffect} from 'react';
-import Footer from '../components/Footer';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Layout from '../Layout';
+// import Navbar from '../components/Navbar';
+// import {useState,useEffect} from 'react';
+// import Footer from '../components/Footer';
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+// import Layout from '../Layout';
 import Herosec from '../components/Herosec';
 import AboutSec  from '../components/AboutSec';
 import DonateTempsec from '../components/DonateTempsec';

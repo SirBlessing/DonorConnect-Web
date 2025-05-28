@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+// import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import "../App.css"; 
 
-const containerStyle = {
-  width: "100%",
-  height: "500px",
-};
+// const containerStyle = {
+//   width: "100%",
+//   height: "500px",
+// };
 
-const center = {
-  lat: 6.6008, // Latitude for Lagos, Nigeria
-  lng: 3.3515, // Longitude for Lagos, Nigeria
-};
+// const center = {
+//   lat: 6.6008, 
+//   lng: 3.3515, 
+// };
 
 const FormWithMap = () => {
   const [formData, setFormData] = useState({

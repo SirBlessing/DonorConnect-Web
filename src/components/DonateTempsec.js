@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
 import Homecard1 from './Homecard1';
-import blooood from '../images/blooood.png';
-import aboutimage2 from '../images/aboutimage2.png';
+// import blooood from '../images/blooood.png';
+// import aboutimage2 from '../images/aboutimage2.png';
 const DonateTempsec = () => {
         const card1img="car1image1.png";
        const card1h1="Book appointment";

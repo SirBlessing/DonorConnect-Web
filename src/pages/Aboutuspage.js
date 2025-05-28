@@ -6,7 +6,7 @@ import savethechildren from '../images/savethechildren.png';
 import NBTS from '../images/NBTS.png';
 import WHO from '../images/WHO.png';
 import UNICEF from '../images/UNICEF.png';
-import gbf from '../images/gbf.png';
+// import gbf from '../images/gbf.png';
 import nbsa from '../images/nbsa.png';
 import BloodDonationInfo from '../components/BloodDonationInfo';
 const Aboutuspage = () => {

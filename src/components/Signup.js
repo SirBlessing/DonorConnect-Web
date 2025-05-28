@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import axios from "axios";
+// import React, { useState } from "react";
+// import axios from "axios";
 
 import '../App.css';
 import { FaGoogle, FaApple, FaPhoneAlt } from "react-icons/fa";
@@ -91,18 +91,18 @@ const handleSubmit = (e) => {
  
     const [loading, setLoading] = useState(false);
   
-   const handleSignUp = () => {
-  setLoading(true);
+//    const handleSignUp = () => {
+//   setLoading(true);
 
-  // Simulate async signup (replace with real API call later)
-  setTimeout(() => {
-    setLoading(false);
-    alert("Signup complete!");
+//   // Simulate async signup (replace with real API call later)
+//   setTimeout(() => {
+//     setLoading(false);
+//     alert("Signup complete!");
 
-    // Save authentication state after successful signup
-    login(); // <- this activates global login state
-  }, 2000);
-};
+//     // Save authentication state after successful signup
+//     login(); // <- this activates global login state
+//   }, 2000);
+// };
 
 
 

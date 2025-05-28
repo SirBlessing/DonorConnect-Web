@@ -1,16 +1,16 @@
 import React from 'react';
 import '../App.css';
 import TestimonyCard from './TestimonyCard';
-import tcard1 from '../images/tcard1.png';
-import tcard2 from '../images/tcard2.png';
-import tcard3 from '../images/tcard3.png';
-import tcard4 from '../images/tcard4.png';
+// import tcard1 from '../images/tcard1.png';
+// import tcard2 from '../images/tcard2.png';
+// import tcard3 from '../images/tcard3.png';
+// import tcard4 from '../images/tcard4.png';
 const Testinmonysec = () => {
    
     const tcardp1="This app made donating  so easy! I could schedule my appointment in minutes, find the nearest donation center, and even track my donation history . it a big lifesaver!";
     const tcardh1="David  Peter";
     const timage1="tcard1.png";
-    const tcardp2="Thanks to the world donation app, I found donor \s when I needed it most. The kindness of strangers who donated gave me second chance to life. Donors you all are heroes";
+    const tcardp2="Thanks to the world donation app, I found donor  when I needed it most. The kindness of strangers who donated gave me second chance to life. Donors you all are heroes";
     const tcardh2="Joyce Macusii ";
     const timage2="tcard2.png";
     const tcardp3="I love how user- friendly and intuitive the app is .The reminders forupcoming appointments and urgent donation requests keep me engaged and motivated to donate regular. ";
