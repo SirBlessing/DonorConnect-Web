@@ -11,7 +11,7 @@ const Footer = () => {
            <p>At  DonorConnect, we believe every donation makes a difference. Our mission is to simplify connect donors to recipients, and save lives through innovation and community</p> 
         </div> 
 
-         <div className='footdiv'>
+         <div className='footdiv quicklink'>
          <h4>QUICK LINKS</h4>
          <p>Home</p>
          <p>Forms</p>
