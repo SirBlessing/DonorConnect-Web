@@ -880,6 +880,7 @@ color: white;
   border: none;
   color: rgba(248, 249, 250, 1);
   margin-top: 2%;
+  cursor: pointer;
 }
 .donorpageintro h1{
 font-size: 32px;
