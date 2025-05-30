@@ -22,7 +22,7 @@ const Footer = () => {
 
         <div className='footdiv'>
         <h4>LICENSE</h4>
-        <p>Terms and Concition</p>
+        <p>Terms and Condition</p>
         <p>Data Privacy and Compliance</p>
         <p>Privacy Policy</p>
             </div>
