@@ -39,7 +39,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="namelogo">
         {/* <FaTint className="logoicon" /> <h2>DonorConect</h2> */}
-        <img src={mainlogo} alt="themainlogo"/>
+        <Link to ="/"><img src={mainlogo} alt="themainlogo"/></Link>
       </div>
 
       <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>

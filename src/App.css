@@ -31,8 +31,10 @@ nav{
   align-items: center;
 
 }
+
 .namelogo img{
   border-radius:10px;
+   
 }
 .navli{
   padding: 50px;
@@ -47,7 +49,7 @@ nav{
 .namelogo{
   display: flex;
   flex-direction: row;
-  padding: 10px;
+  padding-top: 5px;
   color: #D10000;
   padding-left: 0;
 }
@@ -3225,6 +3227,7 @@ th, td {
 
   .nav-links.active {
     display: flex;
+     top: 50px;
   }
 
   .hamburger {
