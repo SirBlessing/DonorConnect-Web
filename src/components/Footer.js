@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
- 
+ import {Link} from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -13,11 +13,11 @@ const Footer = () => {
 
          <div className='footdiv quicklink'>
          <h4>QUICK LINKS</h4>
-         <p>Home</p>
-         <p>Forms</p>
-         <p>Donor</p>
-         <p>Recipient</p>
-         <p>Hospital</p>
+         <Link to="/"><p>Home</p></Link>
+         <Link to="/Reciepientpage"><p>Forms</p></Link>
+          <Link to="/DonorPage"><p>Donor</p></Link>
+          <Link to="/Reciepientpage"><p>Recipient</p></Link>
+         <Link to="Hospitaldash"><p>Hospital</p></Link>
         </div> 
 
         <div className='footdiv'>

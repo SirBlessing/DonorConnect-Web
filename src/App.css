@@ -16,7 +16,8 @@ nav{
   display:flex;
   flex-direction:row;
   justify-content:space-around;
-  background-color:rgba(245, 238, 236, 1);
+  /* background-color:rgba(245, 238, 236, 1); */
+  background-color:white;
   height: 68px;
   top: 0;
   left: 0;
@@ -29,6 +30,9 @@ nav{
   justify-content: space-between;
   align-items: center;
 
+}
+.namelogo img{
+  border-radius:10px;
 }
 .navli{
   padding: 50px;
@@ -60,7 +64,8 @@ nav{
   width: 20%;
 }
 .buttondiv button{
-  background-color: rgba(248, 249, 250, 1);
+  /* background-color: rgba(248, 249, 250, 1); */
+  background-color:white;
   color:#D10000;
   height: 30px;
   width: 70px;
@@ -3313,14 +3318,17 @@ th, td {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 20px;
-   margin: 8%;
+    margin: 8%;
+    margin-top: 0%;
+    padding-top: 0%;
   }
 
   .testintrop {
     width: 100%;
     height: auto;
-    margin-bottom: 8%;
+    margin-bottom: 0%;
     padding: 0 10px;
+    padding-bottom: 0;
   }
 
   .testintrop p {

@@ -2,10 +2,10 @@ import React, { useState, useContext } from "react";
 import Signup from "./Signup";
 import Signin from "./Signin";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { FaTint, FaBars, FaTimes } from 'react-icons/fa';
+import {  FaBars, FaTimes } from 'react-icons/fa';
 import '../App.css';
 import { AuthContext } from "../components/AuthContext";
-
+import mainlogo from "../images/mainlogo.png"
 const Navbar = () => {
   const [showOverlay, setShowOverlay] = useState(false);
   const [overlayType, setOverlayType] = useState(null);
@@ -38,7 +38,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="namelogo">
-        <FaTint className="logoicon" /> <h2>DonorConect</h2>
+        {/* <FaTint className="logoicon" /> <h2>DonorConect</h2> */}
+        <img src={mainlogo} alt="themainlogo"/>
       </div>
 
       <div className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
