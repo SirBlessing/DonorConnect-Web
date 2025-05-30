@@ -49,7 +49,7 @@ nav{
   flex-direction: row;
   padding: 10px;
   color: #D10000;
-  
+  padding-left: 0;
 }
 .namelogo h2{
   color: #333333;
@@ -2709,7 +2709,15 @@ th, td {
 
 
 @media(max-width:430px){
- 
+  .namelogo{
+    padding: 2%;
+    padding-left: 3%;
+  }
+ .namelogo img{
+  border-radius:10px;
+  width: 50px;
+  padding: 0;
+}
   body{
   
   overflow-x: hidden;
@@ -3193,16 +3201,14 @@ th, td {
     width: 100%;
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
+    justify-content:space-between;
     padding: 2%;
-    
-    background-color:rgba(245, 238, 236, 1);
     height: 50px;
    
     top: 0;
     left: 0;
     position: fixed;
-    z-index: 1000; 
+    z-index: 9999; 
   }
   .nav-links {
     display: none;
@@ -3223,7 +3229,8 @@ th, td {
 
   .hamburger {
     display: block;
-    padding-top: 4%;
+    padding-top: 1%;
+    padding-right: 3%;
   }
 
   .buttondiv {
