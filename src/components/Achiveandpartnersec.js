@@ -28,7 +28,7 @@ const Achiveandpartnersec = () => {
     return (
         <div className='wholeachive'>
         <div className='archivehead'>
-            <h1>Archivements</h1>
+            <h1>Archievements</h1>
             <p>Every drop of blood donated through our platform has helped rewrite someone’s story. Here’s the impact you made possible:</p>
         </div>
         <ImpactStats/>

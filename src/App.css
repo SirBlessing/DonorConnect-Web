@@ -10,6 +10,7 @@
 body{
   background-color: (248, 249, 250, 1);
   overflow-x: hidden;
+
 }
 nav{
   width: 100%;
@@ -2777,13 +2778,13 @@ th, td {
     font-size: 10px;
   }
 
-  .donor-grid {
+  /* .donor-grid {
     display: flex;
     flex-direction: column;
     gap: 12px;
     align-items: center;
     padding: 0;
-  }
+  } */
 
   .donor-card {
     width: 178px;
@@ -2793,8 +2794,13 @@ th, td {
     justify-content: flex-start;
     align-items: center;
     text-align: left;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
     
-    box-shadow: none;
+  }
+  .donor-card img{
+    height: 40px;
+    width: 40px;
   }
 
   .donor-img,
@@ -2846,7 +2852,7 @@ th, td {
     box-sizing: border-box;
   }
   
-  .donor-card {
+  /* .donor-card {
     background-color: #fff;
     border: 1px solid #d10000;
     border-radius: 8px;
@@ -2855,7 +2861,7 @@ th, td {
     text-align: center;
     box-sizing: border-box;
     overflow: hidden;
-  }
+  } */
   
 
 
@@ -3050,7 +3056,7 @@ th, td {
 }
 
 /* Card Styling */
-.donor-card {
+/* .donor-card {
   display: flex;
   flex-direction: row;
   background-color: #F7F2F3;
@@ -3059,11 +3065,17 @@ th, td {
   text-align: center;
   width: 178px;
   height: 200px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
+  
   align-items: center;
   justify-content: center;
-}
+} */
+
+
+
+
+
+
+
 
 .donorcarddetails{
   padding-left: 10%;
