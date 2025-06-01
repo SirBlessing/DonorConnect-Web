@@ -3800,12 +3800,12 @@ th, td {
   }
 
   .donorpageintro{
-   text-align: left;
+   text-align: center;
    padding: 4%;
    
   }
   .donorpageintro p{
-    text-align: left;
+    text-align: center;
     padding: 4%;
     width: 100%;
     font-size: 12px;
@@ -3819,7 +3819,9 @@ th, td {
     padding-bottom: 0;
    }
    .donorpageintro button{
-    margin-left: 20%;
+    /* margin-left: 15%; */
+    align-items: center;
+    justify-content: center;
    }
 	.wholeaboutsec{
     display: flex;
