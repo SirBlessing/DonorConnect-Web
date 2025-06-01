@@ -16,7 +16,7 @@ const RecipientRequest = () => {
   ];
 
   return (
-    <div className="recipientContainer">
+    <div className="recipientContainer" id="recipientContainer">
       <h2 className="tableTitle">Recipient Request</h2>
       <table className="recipientTable">
         <thead>

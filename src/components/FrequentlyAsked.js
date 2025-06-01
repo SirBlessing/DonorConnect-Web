@@ -33,7 +33,7 @@ const FrequentlyAsked = () => {
                 {openIndex === index && <p className="showquestion">{faq.answer}</p>}
               </div>
             ))}
-            <hr />
+            {/* <hr /> */}
           </div>
   
           <div className="faq-column">

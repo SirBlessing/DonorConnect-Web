@@ -71,8 +71,8 @@ const Hospitaldash = () => {
       <div className="sidebar">
         <h3>Free Hand Hospital</h3>
         <ul>
-          <li>Commission</li>
-          <li>Recipient Request</li>
+          <li >Commission</li>
+          <li >Recipient Request</li>
           <li>Donor Scheduled</li>
           <li>Completed donation</li>
           <li>Profile</li>
@@ -81,7 +81,7 @@ const Hospitaldash = () => {
 
       {/* Main Content */}
       <div className="mainContent">
-        <h2 className="title">Commission</h2>
+        <h2 className="title" id="commision">Commission</h2>
         <div className="commissionBoxes">
           <div className="box">
             <h3>Commission Earn</h3>
