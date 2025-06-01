@@ -90,6 +90,7 @@ background-repeat:no-repeat;
 color:white;
 padding:10%;
 background-size: 100% 730px;
+height: 645px;
 }
 .herotext{
   padding-top: 10%;
@@ -2421,7 +2422,7 @@ th, td {
  width: 100%;
  background-repeat: no-repeat;
   position: relative;
-  height: 500px;
+  height: 645px;
   color: white;
   display: flex;
   align-items: center;
@@ -2958,6 +2959,68 @@ th, td {
   
   /* Optional: prevent body scroll issues */
   
+/* 
+    .transactionhistrysep {
+      overflow-x: auto;
+      margin-top: 20px;
+    }
+  
+    .transactionTable {
+      width: 400px;
+      font-size: 12px;
+    }
+    
+   
+
+.transactionTable th,
+.transactionTable td {
+  padding: 5px;
+  border: none;
+  text-align: left;
+  font-weight: 400px;
+  font-size: 15px;
+ 
+}
+
+.transactionTable th {
+  background: #f5f5f5;
+  color: #D10000;
+  font-weight: 400px;
+  font-size: 15px;
+
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.paid {
+  background-color: #d4edda;
+  color: green;
+}
+
+.status.pending {
+  background-color: #ffeeba;
+  color: orange;
+}
+
+    .printButton {
+      width: 50%;
+     
+    }
+  
+   */
+
+/* test Responsive Styles for tables */
+
+
+
+/* Wrap tables in scrollable container */
+
+
 .commissionContainer {
       flex-direction: column;
       overflow-x: hidden;
@@ -3007,67 +3070,70 @@ th, td {
       font-size: 18px;
     }
   
-    .transactionhistrysep {
-      overflow-x: auto;
-      margin-top: 20px;
-    }
-  
-    .transactionTable {
-      width: 400px; /* Keep horizontal scroll inside its container */
-      font-size: 12px;
-    }
-    
-   
 
-.transactionTable th,
-.transactionTable td {
-  padding: 5px;
-  border: none;
-  text-align: left;
-  font-weight: 400px;
-  font-size: 15px;
- 
-}
+  .transactionhistrysep,
+  .recipientContainer,
+  .scheduledContainer,
+  .transfusionTableContainer {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 
-.transactionTable th {
-  background: #f5f5f5;
-  color: #D10000;
-  font-weight: 400px;
-  font-size: 15px;
-
-}
-
-.status {
-  padding: 5px 10px;
-  border-radius: 15px;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.status.paid {
-  background-color: #d4edda;
-  color: green;
-}
-
-.status.pending {
-  background-color: #ffeeba;
-  color: orange;
-}
-
-    .printButton {
-      width: 50%;
+  .transactionTable,
+  .recipientTable,
+  .scheduledTable,
+  .transfusionTable {
+    min-width: 428px; /* Prevents table from shrinking too much */
+    font-size: 14px;
      
-    }
+  }
+
+  /* Adjust th and td padding + font size */
+  .transactionTable th,
+  .transactionTable td,
+  .recipientTable th,
+  .recipientTable td,
+  .scheduledTable th,
+  .scheduledTable td,
+  .transfusionTable th,
+  .transfusionTable td {
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  /* Smaller headings */
+  .tableTitle,
+  .scheduledTitle,
+  .transfusionTableTitle {
+    font-size: 20px;
+  }
+
+  /* Reduce box spacing and size */
+  .commissionBoxes {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+
+  /* Print Button reposition */
+  .printButton {
+    margin-left: 0;
+    width: 100%;
+  }
+
+
+
   
-  
-
-
-
-
 
   
 
-  
+
+
   .container{
    display: flex;
    flex-direction: column;
@@ -3158,6 +3224,7 @@ th, td {
     height: 100vh;                 /* Full screen height */
     padding: 20px;
     flex-direction: column;
+    
   }
 
   /* .hero-section .overlay {
@@ -3747,6 +3814,9 @@ th, td {
    .donorpageintro h1{
     font-size: 24px;
     font-weight: 700px;
+    padding:10%;
+    padding-left: 3.5%;
+    padding-bottom: 0;
    }
    .donorpageintro button{
     margin-left: 20%;
