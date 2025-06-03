@@ -1000,7 +1000,7 @@ margin: 1%;
 
 .search-bar button {
   width: 574px;
-  background-color: rgba(21, 101, 192, 1);
+  background-color: #D10000;
   color: white;
   font-size: 16px;
   border: none;
@@ -1014,7 +1014,7 @@ margin: 1%;
 }
 
 .search-bar button:hover {
-  background-color: #0056b3;
+  background-color: #f32626;
 }
 
 .map-container {
@@ -1140,18 +1140,20 @@ margin: 1%;
 }
 
 .schedule-btn {
-  background-color: rgba(21, 101, 192, 1);
+  background-color: #D10000;
   color: white;
 }
 
 .reschedule-btn {
-  background-color: rgba(181, 202, 225, 1);
+  background-color: white;
   color: black;
+  border: 1px solid #D10000;
 }
 
 .cancel-btn {
-  background-color: rgba(181, 202, 225, 1);
+  background-color: white;
   color: black;
+  border: 2px solid #D10000;
 }
 
 /* Content Layout */
@@ -1185,7 +1187,7 @@ margin: 1%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0056b3;
+  background-color: #D10000;
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -1216,7 +1218,7 @@ margin: 1%;
 }
 
 .date-grid .selected {
-  background-color: #0056b3;
+  background-color: #D10000;
   color: white;
   font-weight: bold;
 }
@@ -1254,18 +1256,18 @@ margin: 1%;
   border-radius: 5px;
   font-size: 14px;
   border: 1px solid #ccc;
-  background-color: #eaeaea;
+  background-color: #fce8e6;
   cursor: pointer;
 }
 
 .time-slots .selected-time {
-  background-color: green;
+  background-color: #D10000;
   color: white;
 }
 
 /* Continue Button */
 .continue-btn {
-  background-color: #0056b3;
+  background-color: #D10000;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -1284,13 +1286,18 @@ a {
   font-family: Arial, sans-serif;
 }
 
+.notification-container .filters button{
+  margin: 2%;
+ 
+  
+}
 .notification-header {
   display: flex;
   align-items: center;
   gap: 10px;
   font-size: 24px;
   font-weight: bold;
-  color: #003366;
+  color: #D10000;
 }
 
 .notification-header .tabs {
@@ -1318,21 +1325,24 @@ a {
 
 .section-title {
   font-weight: bold;
-  color: #003366;
+  color: #D10000;
   margin-bottom: 10px;
 }
 
 .notification-card {
   display: flex;
   gap: 10px;
-  padding: 15px;
-  
+  padding: 10px;
   border-left: 5px solid;
   margin-bottom: 5px;
   background-color: rgba(245, 238, 236, 1);
- 
+  border-left-color: #D10000;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  background: #fce8e6;
+  
 }
-
 
 .notification-card.urgent {
   display: flex;
@@ -1343,13 +1353,13 @@ a {
 
 
 .notification-card.appointment {
-  border-left-color: blue;
-  background-color: rgba(245, 238, 236, 1);
+  border-left-color: #D10000;
+  background-color: #fce8e6;
 }
 
 .notification-card.success {
-  border-left-color: green;
-  background: #e6f4ea;
+  border-left-color: #D10000;
+   background: #fce8e6; 
 }
 
 .notification-card .icon {
@@ -1362,7 +1372,7 @@ a {
 
 .notification-card .content .title {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .notification-card .content .message {
@@ -1372,7 +1382,7 @@ a {
 
 .notification-card .actions {
   display: flex;
-  gap: 5px;
+  gap: 3px;
 }
 
 .notification-card .actions button {
@@ -1383,7 +1393,7 @@ a {
 }
 
 .notification-card .actions .accept {
-  background: green;
+  background: #D10000;
   color: white;
 }
 
@@ -1433,10 +1443,10 @@ a {
   border-radius: 30px;
   background-color: rgba(255, 255, 255, 1);
   color: rgba(51, 51, 51, 1);
-  border: 1px solid rgba(159, 22, 22, 1);
+  border: 1px solid #D10000;
 }
 .filters button:hover{
-  background-color: rgba(159, 22, 22, 1);
+  background-color: #D10000;
   color: white;
 }
 .notification-footer button{
@@ -2477,14 +2487,14 @@ th, td {
 }
 
 .donate-btn {
-  background-color: red;
+  background-color: #D10000;
   color: white;
 }
 
 .find-btn {
   background-color: white;
-  color: red;
-  border: 1px solid red;
+  color: #D10000;
+  border: 1px solid #D10000;
 }
 
 /* Mission and Vision */
