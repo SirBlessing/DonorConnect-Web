@@ -1,11 +1,11 @@
 import React from "react";
 import '../App.css';
 import { FaGoogle, FaApple, FaPhoneAlt } from "react-icons/fa";
-
+import {Link } from "react-router-dom"
 const Signin = ({ closeOverlay }) => {
   return (
     <div className="modal">
-          <h2>Create an Account</h2>
+          <h2 className="signinh2">Sign In</h2>
           
           <div  className="signup-container">
           <div className="signup-btn">
@@ -28,11 +28,11 @@ const Signin = ({ closeOverlay }) => {
           <div className="signupform">
       <label>Email</label>
       <input type="text" required />
-      <label>Password</label>
-      <input type="password" required />
-      <button className="signupform-btn">Sign Up</button>
-      <p className="terms">
-        By signing up, you agree to our Terms of service and Privacy Policy.
+      {/* <label>Password</label>
+      <input type="password" required /> */}
+      <button className="signupform-btn">Sign In</button>
+      <p className="termss">
+       Don't have an account? <Link to="/signup"><b>Sign Up</b></Link>
       </p>
     </div>
     

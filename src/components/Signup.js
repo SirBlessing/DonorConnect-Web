@@ -111,7 +111,7 @@ const handleSubmit = (e) => {
 
   return (
     <div className="modal">
-      <h2>Create an Account</h2>
+      <h2 className="signinh2">Create an Account</h2>
 
       <div className="signup-container">
         <div className="signup-btn">
@@ -161,7 +161,7 @@ const handleSubmit = (e) => {
           By signing up, you agree to our Terms of service and Privacy Policy.
         </p>
       </form>
-      {loading ? <div className="spinner"></div> : "Sign Up"}
+      {/* {loading ? <div className="spinner"></div> : "Sign Up"} */}
 
     </div>
   );
